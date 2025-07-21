@@ -1,0 +1,14 @@
+﻿<Window x:Class="AutoCAD.IPPlugin.Net8.ProgressWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Loading DWG" Height="100" Width="400" 
+        ResizeMode="NoResize" WindowStyle="ToolWindow"
+        Topmost="True">
+    <Grid>
+        <ProgressBar IsIndeterminate="True" Height="25" Margin="20" 
+                     VerticalAlignment="Center"/>
+        <TextBlock Text="Downloading DWG file..." 
+                   HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                   Margin="0,0,0,15"/>
+    </Grid>
+</Window>

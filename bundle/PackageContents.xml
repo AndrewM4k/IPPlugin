@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0">
+	<CompanyDetails Name="M4k.Dev" />
+	<Components>
+		<RuntimeRequirements OS="Win64" Platform="AutoCAD" SeriesMin="2025" />
+		<ComponentEntry AppName="IPPlugin" ModuleName="./AutoCAD.IPPlugin.Net8.dll" />
+	</Components>
+</ApplicationPackage>
